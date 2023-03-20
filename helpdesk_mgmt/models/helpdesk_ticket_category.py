@@ -3,20 +3,14 @@ from odoo import fields, models
 
 class HelpdeskCategory(models.Model):
 
-    _name = "helpdesk.ticket.category"
-    _description = "Helpdesk Ticket Category"
-    _order = "sequence, id"
+    _name = 'helpdesk.ticket.category'
+    _description = 'Helpdesk Ticket Category'
 
-    sequence = fields.Integer(default=10)
-    active = fields.Boolean(
-        default=True,
-    )
-    name = fields.Char(
-        required=True,
-        translate=True,
-    )
+    active = fields.Boolean(string='Active', default=True)
+    name = fields.Char(string='Name', required=True)
     company_id = fields.Many2one(
-        comodel_name="res.company",
+        'res.company',
         string="Company",
-        default=lambda self: self.env.company,
+        default=lambda self: self.env['res.company']._company_default_get(
+            'helpdesk.ticket')
     )

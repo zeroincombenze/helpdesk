@@ -1,12 +1,13 @@
-from odoo.tests.common import TransactionCase
+from odoo.tests.common import SavepointCase
 
 
-class TestPartner(TransactionCase):
+class TestPartner(SavepointCase):
     def setUp(self):
-        super().setUp()
+        super(TestPartner, self).setUp()
         self.partner_obj = self.env["res.partner"]
         self.ticket_obj = self.env["helpdesk.ticket"]
-        self.stage_id_closed = self.env.ref("helpdesk_mgmt.helpdesk_ticket_stage_done")
+        self.stage_id_closed = self.env.ref(
+            "helpdesk_mgmt.helpdesk_ticket_stage_done")
         self.parent_id = self.partner_obj.create({"name": "Parent 1"})
         self.child_id_1 = self.partner_obj.create({"name": "Child 1"})
         self.child_id_2 = self.partner_obj.create({"name": "Child 2"})
@@ -39,4 +40,5 @@ class TestPartner(TransactionCase):
         self.assertEqual(self.parent_id.helpdesk_ticket_active_count, 3)
 
     def test_ticket_string(self):
+
         self.assertEqual(self.parent_id.helpdesk_ticket_count_string, "3 / 4")

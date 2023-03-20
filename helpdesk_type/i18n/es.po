@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* helpdesk_type
+# 	* helpdesk_type
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-12-12 15:36+0000\n"
-"Last-Translator: Fernando <fernandolachica@gmail.com>\n"
+"PO-Revision-Date: 2020-05-18 12:19+0000\n"
+"Last-Translator: Josep M <jmyepes@mac.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Creado por"
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__create_date
 msgid "Created on"
-msgstr "Creado el"
+msgstr "Creado en"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__display_name
@@ -39,7 +39,7 @@ msgstr "Ticket Helpdesk"
 #. module: helpdesk_type
 #: model:ir.model,name:helpdesk_type.model_helpdesk_ticket_team
 msgid "Helpdesk Ticket Team"
-msgstr "Equipo de ticket Helpdesk"
+msgstr "Equipo de tickets del Helpdesk"
 
 #. module: helpdesk_type
 #: model:ir.actions.act_window,name:helpdesk_type.action_helpdesk_ticket_type
@@ -50,7 +50,7 @@ msgstr "Tipo de tickets del Helpdesk"
 #. module: helpdesk_type
 #: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_type__team_ids
 msgid "Helpdesk teams allowed to use this type."
-msgstr "Los equipos de soporte t??cnico pueden usar este tipo."
+msgstr "Los equipos de soporte técnico pueden usar este tipo."
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__id
@@ -60,17 +60,17 @@ msgstr "ID"
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type____last_update
 msgid "Last Modified on"
-msgstr "??ltima modificaci??n el"
+msgstr "Última modificación el"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__write_uid
 msgid "Last Updated by"
-msgstr "??ltima actualizaci??n por"
+msgstr "Última actualización por"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__write_date
 msgid "Last Updated on"
-msgstr "??ltima actualizaci??n el"
+msgstr "Last Updated el"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__name
@@ -94,14 +94,17 @@ msgstr "Tipos de Ticket"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_team__type_ids
-msgid "Ticket Types the team will use. This team's tickets will only be able to use those types."
+msgid ""
+"Ticket Types the team will use. This team's tickets will only be able to use "
+"those types."
 msgstr ""
-"Tipos de Tickets que usar?? el equipo. Los tickets de este equipo solo podr??n "
+"Tipos de Tickets que usará el equipo. Los tickets de este equipo solo podrán "
 "usar esos tipos."
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket__type_id
 #: model_terms:ir.ui.view,arch_db:helpdesk_type.helpdesk_ticket_type_form
+#: model_terms:ir.ui.view,arch_db:helpdesk_type.helpdesk_ticket_view_search
 msgid "Type"
 msgstr "Tipo"
 

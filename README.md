@@ -1,19 +1,8 @@
+[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/282/12.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-helpdesk-282)
+[![Build Status](https://travis-ci.com/OCA/helpdesk.svg?branch=12.0)](https://travis-ci.com/OCA/helpdesk)
+[![codecov](https://codecov.io/gh/OCA/helpdesk/branch/12.0/graph/badge.svg)](https://codecov.io/gh/OCA/helpdesk)
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/helpdesk&target_branch=15.0)
-[![Pre-commit Status](https://github.com/OCA/helpdesk/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/OCA/helpdesk/actions/workflows/pre-commit.yml?query=branch%3A15.0)
-[![Build Status](https://github.com/OCA/helpdesk/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/OCA/helpdesk/actions/workflows/test.yml?query=branch%3A15.0)
-[![codecov](https://codecov.io/gh/OCA/helpdesk/branch/15.0/graph/badge.svg)](https://codecov.io/gh/OCA/helpdesk)
-[![Translation Status](https://translation.odoo-community.org/widgets/helpdesk-15-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/helpdesk-15-0/?utm_source=widget)
-
-<!-- /!\ do not modify above this line -->
-
-# helpdesk
-
-TODO: add repo description.
-
-<!-- /!\ do not modify below this line -->
-
-<!-- prettier-ignore-start -->
+# Odoo modules for Helpdesk management
 
 [//]: # (addons)
 
@@ -21,25 +10,24 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[helpdesk_mgmt](helpdesk_mgmt/) | 15.0.3.5.1 |  | Helpdesk
-[helpdesk_mgmt_project](helpdesk_mgmt_project/) | 15.0.1.1.1 |  | Add the option to select project in the tickets.
-[helpdesk_mgmt_rating](helpdesk_mgmt_rating/) | 15.0.1.0.0 |  | This module allows customer to rate the assistance received on a ticket.
-[helpdesk_mgmtsystem_nonconformity](helpdesk_mgmtsystem_nonconformity/) | 15.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Links helpdesk tickets with nonconformities
-[helpdesk_type](helpdesk_type/) | 15.0.1.0.0 | [![nelsonramirezs](https://github.com/nelsonramirezs.png?size=30px)](https://github.com/nelsonramirezs) [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add a type to your tickets
+[helpdesk_mgmt](helpdesk_mgmt/) | 12.0.1.26.0 |  | Helpdesk
+[helpdesk_mgmt_fieldservice](helpdesk_mgmt_fieldservice/) | 12.0.1.1.0 |  | Create service requests from a ticket
+[helpdesk_mgmt_partner_sequence](helpdesk_mgmt_partner_sequence/) | 12.0.1.0.0 |  | Provides different partner sequence in Helpdesk.
+[helpdesk_mgmt_project](helpdesk_mgmt_project/) | 12.0.1.1.1 |  | Add the option to select project in the tickets.
+[helpdesk_mgmt_sla](helpdesk_mgmt_sla/) | 12.0.1.0.0 |  | Add SLA to the tickets for Helpdesk Management.
+[helpdesk_mgmt_timesheet](helpdesk_mgmt_timesheet/) | 12.0.1.2.1 |  | Add HR Timesheet to the tickets for Helpdesk Management.
+[helpdesk_mgmt_timesheet_time_control](helpdesk_mgmt_timesheet_time_control/) | 12.0.1.0.0 |  | Helpdesk Management Timesheet Time Control
+[helpdesk_motive](helpdesk_motive/) | 12.0.1.0.1 | [![nelsonramirezs](https://github.com/nelsonramirezs.png?size=30px)](https://github.com/nelsonramirezs) [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Keep the motive
+[helpdesk_type](helpdesk_type/) | 12.0.1.1.0 | [![nelsonramirezs](https://github.com/nelsonramirezs.png?size=30px)](https://github.com/nelsonramirezs) [![max3903](https://github.com/max3903.png?size=30px)](https://github.com/max3903) | Add a type to your tickets
 
 [//]: # (end addons)
 
-<!-- prettier-ignore-end -->
+## Translation Status
 
-## Licenses
-
-This repository is licensed under [AGPL-3.0](LICENSE).
-
-However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
-policy. Consult each module's `__manifest__.py` file, which contains a `license` key
-that explains its license.
+[![Translation status](https://translation.odoo-community.org/widgets/helpdesk-12-0/-/multi-auto.svg)](https://translation.odoo-community.org/engage/helpdesk-12-0/?utm_source=widget)
 
 ----
-OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
-organization whose mission is to support the collaborative development of Odoo features
-and promote its widespread use.
+
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.

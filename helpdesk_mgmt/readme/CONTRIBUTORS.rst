@@ -26,21 +26,16 @@
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Pedro M. Baeza
-  * Víctor Martínez
 
-* `ID42 Sistemas <https://www.id42.com.br>`_:
+* `Escodoo <https://www.escodoo.com.br>`_:
 
-  * Marcel Savegnago
-  * Eduardo Aparício
+  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Eduardo Aparício <eduardo.aparicio@escodoo.com.br>
 
-* `Obertix <https://www.obertix.net>`_:
+* `TAKOBI <https://takobi.online>`_:
 
-  * Vicent Cubells
+  * Lorenzo Battistini
 
-* `Solvos <https://www.solvos.es>`_:
+* `Open Source Integrators <https://www.opensourceintegrators.com>`_:
 
-  * David Alonso
-
-* `XCG Consulting <https://xcg-consulting.fr>`_:
-
-  * Houzéfa Abbasbhay
+  * Bhavesh Odedra

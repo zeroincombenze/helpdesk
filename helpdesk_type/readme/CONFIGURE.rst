@@ -1,2 +1,2 @@
-* Go to Helpdesk > Configuration > Ticket Types
+* Go to Helpdesk > Configuration > Types
 * Create your list of types

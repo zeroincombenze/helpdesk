@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* helpdesk_type
+# 	* helpdesk_type
 #
 msgid ""
 msgstr ""
@@ -60,17 +60,17 @@ msgstr "ID"
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type____last_update
 msgid "Last Modified on"
-msgstr "??ltima Modifica????o em"
+msgstr "Última Modificação em"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__write_uid
 msgid "Last Updated by"
-msgstr "??ltima Atualiza????o por"
+msgstr "Última Atualização por"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__write_date
 msgid "Last Updated on"
-msgstr "??ltima Atualiza????o em"
+msgstr "Última Atualização em"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket_type__name
@@ -94,14 +94,17 @@ msgstr "Tipos de Chamado"
 
 #. module: helpdesk_type
 #: model:ir.model.fields,help:helpdesk_type.field_helpdesk_ticket_team__type_ids
-msgid "Ticket Types the team will use. This team's tickets will only be able to use those types."
+msgid ""
+"Ticket Types the team will use. This team's tickets will only be able to use "
+"those types."
 msgstr ""
-"Tipos de chamado que a equipe usar??. Os chamados dessa equipe s?? poder??o "
+"Tipos de chamado que a equipe usará. Os chamados dessa equipe só poderão "
 "usar esses tipos."
 
 #. module: helpdesk_type
 #: model:ir.model.fields,field_description:helpdesk_type.field_helpdesk_ticket__type_id
 #: model_terms:ir.ui.view,arch_db:helpdesk_type.helpdesk_ticket_type_form
+#: model_terms:ir.ui.view,arch_db:helpdesk_type.helpdesk_ticket_view_search
 msgid "Type"
 msgstr "Tipo"
 
